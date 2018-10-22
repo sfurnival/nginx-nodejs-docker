@@ -1,4 +1,4 @@
-FROM nginx:1.13.3-alpine
+FROM nginx:1.15.1-alpine
 MAINTAINER "Stephen Furnival" <sfurnival@gmail.com>
 
 ENV NPM_CONFIG_LOGLEVEL info
