@@ -33,6 +33,6 @@ RUN addgroup -g 1000 node \
 RUN apk add --no-cache --virtual curl gnupg tar
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh python make g++
+    apk add --no-cache bash git openssh python make g++ openssl
 
 CMD [ "node" ]
